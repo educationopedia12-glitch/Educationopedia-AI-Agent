@@ -7,3 +7,9 @@ class ChatRequest(BaseModel):
         min_length=1,
         max_length=4000,
     )
+
+    conversationId: str = Field(
+        ...,
+        min_length=1,
+        max_length=100,
+    )

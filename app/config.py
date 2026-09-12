@@ -13,3 +13,6 @@ OPENROUTER_MODEL = os.getenv(
     "OPENROUTER_MODEL",
     "openrouter/free"
 )
+
+MAX_HISTORY_MESSAGES = 10
+RAG_INGESTION_BATCH_SIZE = 50

@@ -14,3 +14,7 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+
+# Firebase service account
+firebase-service-account.json
+*.json

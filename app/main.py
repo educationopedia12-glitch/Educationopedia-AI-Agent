@@ -18,3 +18,10 @@ async def root():
         "environment": ENVIRONMENT,
         "version": APP_VERSION,
     }
+
+@app.get("/health")
+async def health():
+    return {
+        "status": "healthy"
+    }
+
